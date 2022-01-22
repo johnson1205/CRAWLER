@@ -1,4 +1,3 @@
-from threading import activeCount
 from selenium import webdriver
 import bs4
 browser = webdriver.Chrome()
