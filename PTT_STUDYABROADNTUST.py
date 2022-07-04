@@ -27,5 +27,5 @@ while(pre_page[1].get('href')!='/bbs/studyabroad/index1.html'):
             articleIncludeLists.append('https://www.ptt.cc'+i.find('a')['href'])
 f = open('NTUSTLISTS.txt', 'w')
 for i in articleIncludeLists:
-    f.write(i)
+    f.write(i+'\n')
 f.close()
